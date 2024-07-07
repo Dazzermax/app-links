@@ -3,19 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./normilize.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>links</title>
   </head>
   <body>
-    <header>header</header>
-    <main>
-      <ul>
-        <li>li</li>
-        <li>li</li>
-        <li>li</li>
-      </ul>
-    </main>
-    <footer>footer</footer>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Mattermost links</h1>
+        <img src="./assets/ali_icon.png" alt="ali_icon" class="logo" />
+      </header>
+      <main class="main">
+        <ul class="links">
+          <!-- IOS -->
+          <li class="link-card">
+            <div class="link-card-description">
+              <img
+                class="system-logo"
+                src="./assets/ios_logo.png"
+                alt="ios.png"
+              />
+              <h3>iOS</h3>
+              <p>
+                Supported on iOS 13.4+ <br />
+                v2.17.1
+              </p>
+            </div>
+            <!-- <a href="https://apps.apple.com/us/app/mattermost/id1257222717">
+              <button class="download-btn">Download</button>
+            </a> -->
+            <img class="qr" src="./assets/ios_qr.png" alt="ios_qr.png" />
+          </li>
+          <!-- ANDROID -->
+          <li class="link-card">
+            <div class="link-card-description">
+              <img
+                class="system-logo"
+                src="./assets/android_logo.png"
+                alt="android_logo.png"
+              />
+              <h3>Android</h3>
+              <p>
+                Supported on Android 7.0+
+                <br />
+                v2.17.1
+              </p>
+            </div>
+            <!-- <a
+              href="https://play.google.com/store/apps/details?id=com.mattermost.rn&pli=1"
+            >
+              <button class="download-btn">Download</button>
+            </a> -->
+            <img
+              class="qr"
+              src="./assets/android_qr.png"
+              alt="android_qr.png"
+            />
+          </li>
+          <!-- WINDOWS -->
+          <li class="link-card">
+            <div class="link-card-description">
+              <img
+                class="system-logo"
+                src="./assets/windows_logo.png"
+                alt="windows.png"
+              />
+              <h3>Windows</h3>
+              <p>
+                Supported on 10+
+                <br />
+                v5.8.1
+              </p>
+            </div>
+            <a
+              href="https://st.aestatic.net/infra-public/mattermost-desktop/mattermost-desktop-setup-5.8.1-win.exe"
+            >
+              <button class="download-btn">Download</button>
+            </a>
+          </li>
+          <!-- macOS -->
+          <li class="link-card">
+            <div class="link-card-description">
+              <img
+                class="system-logo"
+                src="./assets/macOs_logo.png"
+                alt="macOs.png"
+              />
+              <h3>macOs</h3>
+              <p>
+                Supported on 12+
+                <br />
+                v5.8.1
+              </p>
+            </div>
+            <a
+              href="https://st.aestatic.net/infra-public/mattermost-desktop/mattermost-desktop-5.8.1-mac-x64.dmg"
+            >
+              <button class="download-btn">Download x64</button>
+            </a>
+            <a
+              href="https://st.aestatic.net/infra-public/mattermost-desktop/mattermost-desktop-5.8.1-mac-m1.dmg"
+            >
+              <button class="download-btn">Download m1</button>
+            </a>
+          </li>
+          <!-- LINUX -->
+          <li class="link-card">
+            <div class="link-card-description">
+              <img
+                class="system-logo"
+                src="./assets/linux_logo.png"
+                alt="linux.png"
+              />
+              <h3>Linux</h3>
+              <p>
+                Supported on Ubuntu 18.04+
+                <br />
+                v5.8.1
+              </p>
+            </div>
+            <a
+              href="https://st.aestatic.net/infra-public/mattermost-desktop/mattermost-desktop-5.8.1-linux-x64.tar"
+            >
+              <button class="download-btn">Download x64</button>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
   </body>
 </html>
